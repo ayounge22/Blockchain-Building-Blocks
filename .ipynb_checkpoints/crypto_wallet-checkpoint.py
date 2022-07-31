@@ -59,7 +59,7 @@ def send_transaction(w3, account, to, wage):
 
     # Construct a raw transaction
     raw_tx = {
-        "to": to,
+        "to": to_address,
         "from": account.address,
         "value": value,
         "gas": gasEstimate,
